@@ -2,7 +2,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 from utils import *
-from metric import *
+from metrics import *
 from scipy.spatial import Delaunay
 import trimesh
 from mpl_toolkits.mplot3d import Axes3D

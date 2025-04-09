@@ -18,7 +18,7 @@ feature_extraction_2D.py         # Feature extraction from 2D images
 feature_extraction_3D.py         # Feature extraction from 3D OCT volumes
 feature_extraction_3D _GPU.py    # GPU-accelerated 3D feature extraction
 feature_extraction_3D_512.py     # Variant for different input resolution
-metric.py / metrics.py           # Additional evaluation functions
+metrics.py                       # Additional evaluation functions
 model_training.py                # Standard model training script
 model_training_Kfold.py          # K-fold cross-validation training
 ```

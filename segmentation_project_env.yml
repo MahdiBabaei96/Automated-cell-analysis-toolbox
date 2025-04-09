@@ -1,0 +1,22 @@
+
+name: tissue_engineering
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.8
+  - tensorflow=2.6.0
+  - keras=2.6.0
+  - numpy=1.19.5
+  - opencv=4.5.1
+  - matplotlib=3.3.4
+  - pandas=1.2.4
+  - scikit-learn=0.24.1
+  - scipy=1.5.4
+  - trimesh=3.9.29
+  - pip:
+      - utils
+      - mpl_toolkits.mplot3d
+      - tensorflow-gpu==2.6.0

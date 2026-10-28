@@ -12,7 +12,7 @@ from tifffile import imread
 
 print("Current working directory:", os.getcwd())
 
-# Load your model
+# Load your model 
 model_path = 'New-1024_vgg16_unet_w0.hdf5'
 input_shape = (1024, 1024, 3)  # Make sure this matches the shape used during training
 model = vgg16_unet(input_shape)

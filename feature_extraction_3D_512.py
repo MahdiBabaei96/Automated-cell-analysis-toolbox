@@ -16,7 +16,7 @@ from scipy.spatial import ConvexHull
 from mpl_toolkits.mplot3d import Axes3D
 
 print("Current working directory:", os.getcwd())
-
+ 
 # Load your model
 model_path = 'models/FullTraining-Model-NewAugmentation_FocalLoss_custom_vgg16_unet_V01.hdf5'
 input_shape = (512, 512, 3)  # Make sure this matches the shape used during training

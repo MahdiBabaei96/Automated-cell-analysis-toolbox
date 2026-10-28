@@ -16,7 +16,7 @@ def load_images_from_folder(folder, color_mode=cv2.IMREAD_GRAYSCALE, target_size
             img = cv2.resize(img, target_size)
             images.append(img)
     return np.array(images)
-
+ 
 def flipImage_old(image):
     images = [image.copy(), cv2.flip(image.copy(), -1), cv2.flip(image.copy(), 0), cv2.flip(image.copy(), 1)]
     return images

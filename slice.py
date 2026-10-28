@@ -12,7 +12,7 @@ def main(inPath, outPath):
         # change file name as your choice
         tempPath = outPath + f'/0149_sliced_{i}.tif'
         tifffile.imwrite(tempPath, specific_file)
-
+ 
 if __name__ == '__main__':
     main('D:/Tissue Engineering/NewFeb4th/data/3D/Default_0149_Mode3D.tif', \
          'D:/Tissue Engineering/NewFeb4th/data/3D/sliced_0149')
